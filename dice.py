@@ -1,3 +1,5 @@
+import random
+
 def parse_input(input_string):
     """
     Check if `input_string` is an integer number between 1-6.
@@ -10,12 +12,24 @@ def parse_input(input_string):
         print("Please enter a number from 1 to 6.")
         raise SystemExit(1)
 
+def roll_dice(num):
+    """
+    Return a list of integers with length `num`.
+    """
+    results = []
+    for _ in range(num):
+        roll = random.randint(1, 6)
+        results.append(roll)
+    return results
 
 
 
 ######################### MAIN ######################### 
 
-# GET INPUT
-num_input = input("Write the amount of dices to be rolled: [1-6]")
+# Get Input
+num_input = input("Write the amount of dices to be rolled: [1-6] ")
 num = parse_input(num_input)
 
+# Let's rock&roll
+roll_results = roll_dice(num)
+print(roll_results)
