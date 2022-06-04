@@ -1,4 +1,4 @@
-# Dicepy
+# DicePy
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ignxal/DicePy?style=for-the-badge)
 ![Github open issues](https://img.shields.io/github/issues/ignxal/DicePy?style=for-the-badge)
@@ -7,7 +7,7 @@
 <br>
 
 The main objective of this project is little bit of practise 😄. <br>
-Functionality is pretty simple, when you run the program it will ask how many dices you want to roll. Results will be displayed on your console.
+Functionality is pretty simple, when you run the program it will ask how many dices you want to roll. Once you enter them, results will be displayed on your console.
 
 <br>
 
